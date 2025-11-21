@@ -6,7 +6,7 @@
 //- It has function scope 
  // (available inside the function where it is declared).
 //- It can be re-declared and updated.
-
+//example 1
 var name = "Rahul";  // We declared a variable 'name' using var.
  console.log(name);  //- It stores the string "Rahul".
     //op: rahul   //- console.log(name) prints "Rahul" in the console.
@@ -711,6 +711,7 @@ console.log(process.next().value);
                       // - Each call to next() returns an object with value and done.
                       // - We access the value using .value.-
                       //  The messages come one by one in order.
+
 
 
 
